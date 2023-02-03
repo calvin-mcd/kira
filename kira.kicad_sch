@@ -2515,7 +2515,7 @@
     (property "Reference" "C9" (id 0) (at 155.829 29.8512 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1nF" (id 1) (at 151.257 34.671 0)
+    (property "Value" "1uF" (id 1) (at 151.257 34.671 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 153.289 31.115 0)
@@ -3550,7 +3550,7 @@
       (reference "C8") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/2d7efb7f-ebd2-47b3-9634-ae056645508c"
-      (reference "C9") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C9") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/c945c869-566f-4554-8cf8-f76f7bb39da2"
       (reference "C10") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")

@@ -28,6 +28,6 @@ This project is released under the GPL v3 License. Please refer to the LICENCE f
 
 ## Credits
 
-big thanks to shwilliam#6993 for letting me try 
+big thanks to shwilliam#6993 for letting me take his KLE to design a rp2040 board!
 
 Any questions, contact Calvin\#0563 on Discord. 

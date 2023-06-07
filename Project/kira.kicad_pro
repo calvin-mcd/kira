@@ -56,7 +56,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|206375000|110172500|6226f0fe-2a6b-441f-918f-ed1022796d1e|741dc48c-1f4e-476c-b284-01671914999e",
+        "clearance|92075000|110172500|0863f3c8-ca9f-4529-ae99-10eccb7ee454|5dff6473-6ce4-43f0-bce7-10cd56f52bcc",
+        "courtyards_overlap|242237501|39037501|c20d9040-4b77-4816-bd52-dec02db03d9c|fb616025-7e6b-472b-bba1-6818d8333df0",
+        "courtyards_overlap|25560248|58088198|45f09d62-43ad-4bb1-a969-a7c1f107f774|e93b63ef-ed73-4540-badb-ac3c73052fa5",
+        "courtyards_overlap|258993626|77129625|793eb90a-2dfe-4c50-aaa1-eb6b6cbefbc9|1cd6ab63-a0c7-4321-88cf-b589fd62f7ad",
+        "courtyards_overlap|266050001|39037501|1686a4ab-be2e-4ecd-be14-ba6f24fc6029|a9b0527f-12b6-49d7-b82d-958873150619",
+        "solder_mask_bridge|206375000|110172500|6226f0fe-2a6b-441f-918f-ed1022796d1e|741dc48c-1f4e-476c-b284-01671914999e",
+        "solder_mask_bridge|92075000|110172500|0863f3c8-ca9f-4529-ae99-10eccb7ee454|5dff6473-6ce4-43f0-bce7-10cd56f52bcc"
+      ],
       "meta": {
         "version": 2
       },
@@ -375,18 +384,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -396,6 +410,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",

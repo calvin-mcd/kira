@@ -20,7 +20,7 @@ shwilliam#6993 has plans to design a case for this.
 
 ## Disclaimer
 
-Please note that this project has NOT been tested to work and noone involved in this project is _not responsible_ for any outcomes of its use. However, feel free to edit, modify and otherwise utilise these files.
+Please note that this project is a work in progress with no guarantees of a working outcome. No-one involved in this project is responsible for any usage issues that may arise. However, feel free to edit, modify and otherwise utilise these files.
 
 ## License
 
